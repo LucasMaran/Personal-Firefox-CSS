@@ -1,0 +1,25 @@
+#root.root {--frame-bg: #1b1a21ff;}
+#root.root {--nav-btn-margin: 8px;}
+#root.root {--toolbar-bg: transparent;}
+#root.root {--tabs-margin: 7px;}
+#root.root {--tabs-pinned-height: 45px;}
+#root.root {--tabs-pinned-width: 55px;}
+#root.root {--tabs-height: 36px;}
+#root.root {--tabs-inner-gap: 7px;}
+#root.root {--nav-btn-width: 36px;}
+#root.root {--nav-btn-height: 36px;}
+#root.root {--nav-btn-len-margin: 3px;}
+
+#root.root {--general-border-radius: 7px;}
+#root.root {--general-border: 100px;}
+
+.Tab[data-pin="true"] .body {
+	border: 1px solid #fafafa80;
+	box-shadow: 0px 0px 7px #00000020;
+}
+
+.Tab .title {
+	background: linear-gradient(90deg, var(--tabs-normal-fg) 70%, #f1f1f100 95%);
+	background-clip: text;
+	color: transparent;
+}
